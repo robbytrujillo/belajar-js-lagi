@@ -8,3 +8,12 @@
 const element = (
   <h1 style={{ color: "red", backgroundColor: "yellow" }}>Halo, dunia!</h1>
 );
+
+// 2. Menggunakan Variable
+const styleku = {
+  color: "blue",
+  fontSize: "24px",
+  textAlign: "center",
+};
+
+const element1 = <p style={styleku}>Ini adalah paragraph.</p>;
