@@ -31,7 +31,7 @@ const produkList = [
   { id: 3, nama: "Keyboard", stok: 8 },
 ];
 
-const element = (
+const element3 = (
   <ul>
     {produkList.map((produk) => (
       <li key={produk.id}>
